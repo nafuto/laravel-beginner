@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	$people = ['One', 'Two', 'Thee'];
+
+    return view('welcome', compact('people'));
 });
 
 Route::get('about', function (){
