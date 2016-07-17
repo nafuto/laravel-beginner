@@ -5,3 +5,7 @@ Homestead.yaml
 Homestead.json
 .env
 .DS_Store
+.idea/
+app/Http/Controllers/CardsController.php
+database/migrations/2016_07_10_125722_create_cards_table.php
+resources/views/cards/
