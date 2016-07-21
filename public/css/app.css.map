@@ -1,1 +1,1 @@
-{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAIA;EACC,WAHQ,EAIR","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n$red: red;\n\nbody {\n\tcolor : $red;\n}\n"],"sourceRoot":"/source/"}
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAIA;EACC,aAHU,EAIV","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n$red: white;\n\t\nbody {\n\tcolor : $red;\n}\n"],"sourceRoot":"/source/"}
