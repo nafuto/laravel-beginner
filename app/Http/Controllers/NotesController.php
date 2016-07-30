@@ -11,8 +11,12 @@ use App\Http\Requests;
 class NotesController extends Controller
 {
     public function store(Request $request, Card $card){
+        $this->validate($request, [
+            'body' => 'required|min:10'
+        ]);
         $note = new Note();
 
+        $note->user_id = 1;
         $note->body = $request->body;
 
         $card->notes()->save($note);
