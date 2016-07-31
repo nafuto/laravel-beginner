@@ -11,11 +11,9 @@
 |
 */
 
-// Route::get('/', function () {
-// 	$people = ['One', 'Two', 'Thee'];
-
-//     return view('welcome', compact('people'));
-// });
+ Route::get('/', function () {
+     return view('welcome');
+ });
 
 // Route::get('about', function (){
 // 	return view('pages.about');
@@ -31,3 +29,7 @@ Route::post('cards/{card}/notes', 'NotesController@store');
 Route::get('notes/{note}/edit', 'NotesController@edit');
 Route::patch('notes/{note}', 'NotesController@update');
 
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
